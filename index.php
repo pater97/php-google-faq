@@ -46,68 +46,8 @@ $faq=[
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>google faq</title>
-    <style>
-        body{
-            font-family: 'Noto Sans', sans-serif;
-        }
-        header{
-            position:fixed;
-            z-index:10;
-            background-color:white;
-            top: 0;
-            width: 100%;
-        }
-        /* logo  */
-        .logo{
-            display:flex;
-            align-items:center;
-        }
-        .logo img{
-            width:6rem;
-            margin-right:1rem;
-        }
-        .logo h2{
-            font-weight:300;
-        }
-        /* navbar */
-        nav{
-            display:flex;
-            border-bottom:1px solid black;
-            color:#5f6368;
-            text-align:center;
-        }
-        nav a{
-            padding-right:2rem;
-            padding-bottom: 0.8rem;
-            font-weight:bold;
-        }
-        nav a:last-child{
-            color:#3367d6;
-            border-bottom:2px solid #3367d6;
-        }
-        /* main  */
-        main{
-            width:80%;
-            margin:7rem auto;
-        }
-        main h2{
-            color:#3c4043;
-            font-size: 24px;
-            line-height: 32px;
-            padding-top:64px;
-        }
-        main p{
-            line-height: 24px;
-            padding-top: 20px;
-            color: rgba(0,0,0,0.87);
-            font-size: 14px;
-            font-weight: 400;
-        }
-        main p a{
-            color:#3367d6;
-        }
-    </style>
 </head>
 <body>
     <!-- header -->
